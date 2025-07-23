@@ -1,8 +1,11 @@
+import Title from "./components/Title";
 function App() {
   return (
-    <>
-      <h2>Menu</h2>
-    </>
+    <main>
+      <section className="menu">
+        <Title text="Our Menu" />
+      </section>
+    </main>
   );
 }
 
