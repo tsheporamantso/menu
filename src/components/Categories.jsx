@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { AiOutlineHome } from "react-icons/ai";
 const Categories = ({ uniqueCategories, filteredItem }) => {
   return (
     <div className="btn-container">
@@ -18,7 +18,7 @@ const Categories = ({ uniqueCategories, filteredItem }) => {
       })}
       <button className="btn">
         <Link style={{ color: "white" }} to="/">
-          Home Page
+          <AiOutlineHome />
         </Link>
       </button>
     </div>
