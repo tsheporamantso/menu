@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Categories = ({ uniqueCategories, filteredItem }) => {
   return (
@@ -16,6 +16,11 @@ const Categories = ({ uniqueCategories, filteredItem }) => {
           </button>
         );
       })}
+      <button className="btn">
+        <Link style={{ color: "white" }} to="/">
+          Home Page
+        </Link>
+      </button>
     </div>
   );
 };
